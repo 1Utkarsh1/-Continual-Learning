@@ -23,9 +23,6 @@
 
 The Continual Learning System is a comprehensive framework for developing neural networks that can learn tasks sequentially without suffering from catastrophic forgetting. This project implements several state-of-the-art techniques to mitigate forgetting in neural networks, allowing them to adapt to new tasks while retaining performance on previously learned ones.
 
-<div align="center">
-    <img src="https://via.placeholder.com/800x400?text=Continual+Learning+Workflow" alt="Continual Learning Workflow" width="80%">
-</div>
 
 ## 🌟 Key Features
 
@@ -157,11 +154,6 @@ task_sequence:
 </table>
 </div>
 
-### Performance Over Tasks
-
-<div align="center">
-<img src="https://via.placeholder.com/600x400?text=Performance+Over+Tasks" alt="Performance Over Tasks" width="70%">
-</div>
 
 ## 📝 Recent Experiment Results
 
