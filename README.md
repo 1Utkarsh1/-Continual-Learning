@@ -163,6 +163,22 @@ task_sequence:
 <img src="https://via.placeholder.com/600x400?text=Performance+Over+Tasks" alt="Performance Over Tasks" width="70%">
 </div>
 
+## 📝 Recent Experiment Results
+
+The following experiment results were obtained on March 11, 2025 using the MNIST split task sequence:
+
+**Baseline (Naïve Fine-tuning):**
+- Command: `python src/main.py --method baseline --tasks mnist_split --epochs 5`
+- Task sequence: ['mnist_0_4', 'mnist_5_9']
+- Average final accuracy: 49.74%
+- Average forgetting: 49.90%
+
+**Learning without Forgetting (LwF):**
+- Command: `python src/main.py --method lwf --tasks mnist_split --epochs 5`
+- Task sequence: ['mnist_0_4', 'mnist_5_9']
+- Average final accuracy: 49.67%
+- Average forgetting: 49.83%
+
 ## 🛠️ Project Structure
 
 ```

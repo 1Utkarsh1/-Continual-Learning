@@ -179,7 +179,10 @@ def run_continual_learning(args, logger):
     
     # Initialize model and learner
     input_shape = task_data[0]['train_loader'].dataset[0][0].shape
-    num_classes = len(task_data[0]['classes'])
+    all_classes = set()
+    for task in task_sequence:
+        all_classes.update(task['classes'])
+    num_classes = len(all_classes)
     
     model = get_model(args.model, input_shape, num_classes)
     model = model.to(device)
