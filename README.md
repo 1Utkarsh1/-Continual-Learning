@@ -209,10 +209,10 @@ continual_learning/
 - [x] Implement Elastic Weight Consolidation (EWC)
 - [x] Implement Experience Replay
 - [x] Implement Learning without Forgetting (LwF)
-- [ ] Add support for generative replay
-- [ ] Implement parameter isolation methods
-- [ ] Add support for continual reinforcement learning
-- [ ] Develop benchmark suite for comparing methods
+- [x] Add support for generative replay
+- [x] Implement parameter isolation methods
+- [x] Add support for continual reinforcement learning
+- [x] Develop benchmark suite for comparing methods
 
 ## 🤝 Contributing
 
